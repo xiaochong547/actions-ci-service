@@ -8,3 +8,10 @@
 git checkout -b develop
 ```
 
+#### 合并分支到main
+进入main分支，然后输入需要合并的分支到main分支
+```shell
+git merge develop
+```
+
+
