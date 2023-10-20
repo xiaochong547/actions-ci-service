@@ -10,6 +10,7 @@ func HandlerPing(ctx *gin.Context) {
 
 	// return data
 	ctx.JSON(http.StatusOK, gin.H{
+		"code":    0,
 		"message": "pong",
 	})
 }
