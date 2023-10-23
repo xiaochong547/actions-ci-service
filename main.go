@@ -15,7 +15,7 @@ func HandlerPing(ctx *gin.Context) {
 }
 
 func main() {
-	// hello world
+	// hello world world
 	r := gin.Default()
 
 	r.GET("/ping", HandlerPing)
